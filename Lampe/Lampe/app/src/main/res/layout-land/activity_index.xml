@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".index"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/textView1"
+            android:layout_weight="0.15"
+            android:id="@+id/textView1"
+            android:textAlignment="center"/>
+
+
+        <ImageView
+            android:id="@+id/ImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:src="@drawable/lampe_ballon_multicolore" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/textView2"
+            android:layout_weight="0.089"
+            android:id="@+id/textView2"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/Bleu"
+            android:layout_weight="0.2"
+            android:id="@+id/btnColor1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/Lefond"
+            android:layout_weight="0.2"
+            android:id="@+id/btnColor2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/Vert"
+            android:layout_weight="0.2"
+            android:id="@+id/btnColor3"/>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

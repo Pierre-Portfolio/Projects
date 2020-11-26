@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lampe</string>
+    <string name="BtnPlusRouge">+ROUGE</string>
+    <string name="BtnMoinsRouge">-ROUGE</string>
+    <string name="BtnPlusBleu">+BLEU</string>
+    <string name="BtnMoinsBleu">-BLEU</string>
+    <string name="BtnPlusVert">+VERT</string>
+    <string name="BtnMoinsVert">-VERT</string>
+    <string name="textView1">Lampe Magique\nCrée par Pierre</string>
+    <string name="textView2">Couleur initial ?</string>
+</resources>
