@@ -1,0 +1,5 @@
+name=P & P Gift
+sendmail=pandpgift@mail.fr
+mdp=<motdepasse>
+response=no_reply@mail.fr
+smtp=mailfr
