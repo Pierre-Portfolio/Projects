@@ -1,0 +1,4 @@
+Options -Indexes
+ErrorDocument 404 "/crash.php"
+ErrorDocument 403 "/crash.php"
+AddType application/x-httpd-php .php .inc

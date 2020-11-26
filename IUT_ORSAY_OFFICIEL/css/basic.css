@@ -1,0 +1,315 @@
+/*
+########################################
+# File   : basic.css(3)
+# ~~~~~~~~~~~~~~~~~~~~~~
+# 
+# Common style sheet for all pages
+#
+########################################
+*/
+
+DIV.gframe {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: 0px solid black;
+}
+
+DIV.alert {
+        position: absolute;
+        top: 50px;
+        padding: 10px;
+        left: 50%;
+        margin-left: -300px;
+        width: 580px;
+        border: 1px solid #5f5f5f;
+        background-color: #B2B29B;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FFFFFF;
+}
+
+DIV.noscript {
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        margin-left: -10px;
+}
+
+DIV.bar_item4 {
+        position: relative;
+        padding: 3px;
+        border: 0px solid #5f5f5f;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: #646C6D;
+	cursor:pointer;
+}
+
+IFRAME.gFrame1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.abs_div0 {
+  position:absolute;
+  top:0px;
+  left:0px;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  width:100%;
+  height:70px;
+  background-color:#2A0A29;
+}
+
+.div_main {
+  position:absolute;
+  top:70px;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  border:0px;
+  margin:0px;
+  padding:0px;
+  font-family:Arial,Helvetica;
+  font-size:12px;
+  color:#FF0099;
+  overflow:hidden;
+  background-size:100% 100%;
+}
+
+.iut_div {
+  position:absolute;
+  top:3px;left:2%;
+  margin:0px;
+  border:0px;
+}
+
+.iut_logo {
+  margin:0px;
+  border:0px;
+  height:60px;
+}
+
+.look_div {
+  position:absolute;
+  top:18px;
+  left:50%;
+  margin-left:-190px;
+  width:5px;
+  border:0px;
+  text-align:center;
+}
+
+.look_logo {
+  margin:0px;
+  border:0px;
+  height:28px;
+}
+
+.search_cat {
+  position:absolute;
+  top:4px;
+  left:38px;
+  width:160px;
+  border:1px solid silver;
+  box-shadow:0px 0px 10px white;
+  font-family:Arial,Helvetica;
+  font-size:12px;
+  font-weight:bold;
+  padding:2px 6px 2px 6px;
+  color:#5F5FDE;
+}
+
+.search_cat:hover {
+  cursor:pointer;
+}
+
+.search_input1 {
+  position:absolute;
+  top:1px;
+  left:210px;
+  width:300px;
+  border:1px solid silver;
+  box-shadow:0px 0px 10px white;
+  font-family:Arial,Helvetica;
+  font-size:18px;
+  padding:2px 6px 2px 6px;
+  color:#5F5F5F;
+}
+
+.login_div {
+  position:absolute;
+  top:21px;
+  left:100%;
+  margin:0px;
+  padding:0px;
+  width:26px;
+  height:24px;
+  margin-left:-40px;
+  cursor:pointer;
+}
+
+.login_logo {
+  position:absolute;
+  top:0px;
+  left:0px;
+  margin:0px;
+  width:26px;
+  height:24px;
+}
+
+.rbanner_left {
+	position: absolute;
+	top:42px;
+	left:-16px;
+	width:0px;
+	height:0px;
+	border-color:transparent #7d90a3 transparent transparent;
+	border-style:solid;
+	border-width:16px;
+}
+
+.rbanner_right {
+	position: absolute;
+	top: 42px;
+	left: 100%;
+	margin-left:-16px;
+	width:0px;
+	height:0px;
+	border-color:transparent transparent transparent #7d90a3;
+	border-style:solid;
+	border-width:16px;
+}
+
+.rbanner_text {
+	position:absolute;
+	top:28px;
+	left:0px;
+	right:0px;
+	height:26px;
+	text-align:center;
+	padding:4px 3px 0px 3px;
+	font-family:Arial,Helvetica;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.mbutton:hover {
+  cursor:pointer;
+}
+/*
+################
+##### BLUE #####
+################
+*/
+.dBlueArial11B {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000099;
+}
+
+.dBlueArial12B {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000099;
+}
+
+.varButtonBlue11B {
+	padding: 1px 6px 1px 6px;
+	margin: 0px;
+	height:14px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 9px;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+}
+
+.dBlueArial11BP {
+	cursor:		pointer;
+	font-family:	arial,helvetica;
+	font-size:	11px;
+	padding:	0px;
+	font-weight:	bold;
+	color:		#000099;
+}
+
+.bluefix12 {
+        color: #00ccFF;
+        font-family: courier new, fix;
+        font-size: 12px;
+        font-weight: normal;
+}
+
+/*
+#################
+##### WHITE #####
+#################
+*/
+.whiteArial12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FEFEFE;
+}
+
+
+.whiteArial12B {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FEFEFE;
+}
+
+.whiteArial14B {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FEFEFE;
+	font-weight: bold;
+}
+/*
+#################
+##### BLACK #####
+#################
+*/
+.blackArial12B {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.whitefix14B {
+        color: #000000;
+        font-family: courier new, fix;
+        font-size: 14px;
+        font-weight: bold;
+	color: white;
+}
+
+.blackArial14B {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000000; 
+}

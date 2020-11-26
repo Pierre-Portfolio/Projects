@@ -1,0 +1,37 @@
+<?php
+#######################################################################################
+# File   : colors.default
+# ~~~~~~~~~~~~~~~~~~~~~~~~
+#--------------------------------------------------------------------------------------
+#
+$color0= $BG0 = "#fefefe";
+$color1="#294359"; # bleu fonce
+$color2="#D4DCDD"; # gris fonce
+$color1="#B0C4DE";
+$color2="#E4ECED";
+$color3="#5F5F5F"; # gris fonce
+$color4="#737F76"; # gris milieu
+$color5="#F2F2DB"; # gris clair
+$color5="#E4ECED"; # bleu clair
+$color6="#D4DCDD"; # bleu-gris moyen clair
+$color7="#B0C4DE"; # bleu moyen
+$color8="#FFB30F"; # Pantone 123 C (orange)
+#$color9="#2B60DE"; # bleu roi
+$color9="#572A63"; # violet
+$color10="#FFD0D0"; # rose clair
+$color11="#CEF6D8"; # vert clair
+$color12 = "#ccccff"; # other blue
+$color13 = "#D0D0EE"; # long term prevision
+$color14 = "#294359";
+$color15 = "#5F5F5F";
+$color16 = "#000088";
+$color17 = "#668899";
+$color18 = "#3377aa";
+$color19 = "#708080";
+
+#
+### text
+$tcolor1 = "#294359";
+$tcolor2 = "#000099"; # bleu fonce
+$tcolor3 = "#990000";
+?>
