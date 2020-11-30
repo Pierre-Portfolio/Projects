@@ -1,0 +1,30 @@
+p
+{
+	font-size: large;
+	line-height:20px;
+	margin:35px;
+}
+
+h2
+{
+	font-size: x-large;
+	margin : 25px;
+	color: blue;
+}
+
+br {
+ content: "";
+ display: block;
+ margin-bottom: 1em;
+}
+
+.down_div
+{
+	position:absolute;
+	top:0px;
+	width:1px;
+	left:0px;
+	height:1px;
+	margin-top:-200px;
+	
+}

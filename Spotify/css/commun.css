@@ -1,0 +1,129 @@
+.fond
+{
+background-image:url(../images/testfond6.jpg);
+background-size: 100%;
+}
+
+.image2
+{
+	width:15%;
+	height:auto;
+}
+
+.navclass
+{
+	font-family: arial,helvetica;
+	font-size: 1px;
+	background-color: rgba(220, 220, 220, 0.3);
+	border: 2px solid black;
+	text-align: center;
+	position:fixed;
+	top:10px;
+	left:1%;
+	width:98%;
+	border-radius:10px;
+}
+
+.coter1
+{
+	position:absolute;
+	width:80px;
+	height:200px;
+	top:50%;
+	margin-top:-120px;
+	left:1%;
+}
+
+.image_top
+{
+	width:80px;
+	height:80px;
+}
+
+.image_bottom
+{
+	margin-top:40px;
+	width:80px;
+	height:80px;
+}
+
+.coter2
+{
+	position:absolute;
+	width:80px;
+	height:200px;
+	top:50%;
+	margin-top:-120px;
+	right:1%;
+}
+
+.info_about
+{
+	margin:24px 0px 0px 86px;
+}
+
+.info_music
+{
+	margin:148px 0px 0px 86px;
+}
+
+.info_nous
+{
+	margin:24px 0px 0px -160px;
+}
+
+.info_down
+{
+	margin:148px 0px 0px -133px;
+}
+
+.info_commun
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:rgba(220, 220, 220, 0.3);
+	font-family:arial,helvetica;
+	font-size: 14px;
+	font-weight:bold;
+	padding: 3px 8px 4px 8px;
+	border:2px solid black;
+	border-radius:6px;
+	display:none;
+	white-space:nowrap;
+}
+
+.navclass3
+{
+	font-family: arial,helvetica;
+	font-size: 80px;
+	background-color: rgba(220, 220, 220, 0.5);
+	border: 2px solid black;
+	position:fixed;
+	border-radius:20px;
+	left:260px;
+	right:260px;
+	top:100px;
+	bottom:90px;
+}
+
+h1
+{
+    color: blue;
+	font-size: x-large;
+	text-align: center;
+}
+
+.navclass2
+{
+	font-family: arial,helvetica;
+	font-size: 1px;
+	background-color: rgba(220, 220, 220, 0.3);
+	border: 2px solid black;
+	text-align: center;
+	position:fixed;
+	top:90%;
+	left:1%;
+	width:98%;
+	border-radius:10px;
+}

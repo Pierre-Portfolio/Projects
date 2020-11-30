@@ -1,0 +1,31 @@
+p
+{
+	font-size: large;
+	line-height:20px;
+	margin:35px;
+}
+
+h2
+{
+	font-size: x-large;
+	margin : 25px;
+	color: blue;
+}
+
+p
+{
+	font-size: large;
+	line-height:20px;
+	margin:35px;
+}
+
+br {
+ content: "";
+ display: block;
+ margin-bottom: 1em;
+}
+
+.copy
+{
+	text-align:center;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+	<title>Spotify</title>
+	<link rel="shortcut icon" type='image/x-icon' href="../images/spotify_icon.png">
+	<link rel="stylesheet" href="./contact.css">
+	<link rel="stylesheet" href="../css/commun.css">
+  </head>
+	
+  <body class="fond">
+   
+   <nav class="navclass3">
+	<h1>Nous contacter</h1>
+	
+	   <div id="form-main">
+	<div id="form-div">
+      
+      <nav class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </nav>
+      
+      <nav class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </nav>
+      
+      <nav class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </nav>
+      
+      
+      <nav class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </nav>
+	</div>
+	</div>
+  
+	</nav>
+   
+	<div class="coter1">
+	<a href="../info/info.html">
+	<img class="image_top" src="../images/info.png" alt='Info Spotify' height="626" width="626"
+				OnMouseOver="document.getElementById('info_about').style.display='inline';"
+				OnMouseOut="document.getElementById('info_about').style.display='none';"></a>
+	<a href="../ecouter/music.html">
+	<img class="image_bottom" src="../images/musique.png" alt='Ecouter Spotify' height="626" width="626"
+				OnMouseOver="document.getElementById('info_music').style.display='inline';"
+				OnMouseOut="document.getElementById('info_music').style.display='none';"></a>
+	<div id='info_about' class="info_commun info_about">A propos de Spotify</div>
+	<div id='info_music' class="info_commun info_music">Ecoute en ligne</div>
+	</div>
+	
+	<div class="coter2">
+	<a href="../about/about.html">
+	<img class="image_top" src="../images/quisommenous.png" alt='Info Develloppeur' height="225" width="225"
+				OnMouseOver="document.getElementById('info_nous').style.display='inline';"
+				OnMouseOut="document.getElementById('info_nous').style.display='none';"></a>
+	<a href="../download/download.html">
+	<img class="image_bottom" src="../images/download.png" alt='Telecharger Spotify' height="3333" width="3333"
+				OnMouseOver="document.getElementById('info_down').style.display='inline';"
+				OnMouseOut="document.getElementById('info_down').style.display='none';"></a>
+	<div id='info_nous' class="info_commun info_nous">Qui sommes nous ?</div>
+	<div id='info_down' class="info_commun info_down">T&eacute;l&eacute;chargement</div>
+	</div>
+	
+	<nav class="navclass">
+	<a href="../index/index.html"><img class = "image2" src="../images/spotify2.png" alt='Logo Site' height="1194" width="374"></a>
+	</nav>
+	
+	<nav class="navclass2">
+	<a href="../contact/contact.html"><img class = "image2" src="../images/contact.png" alt='Logo Site' height="960" width="287"></a>
+	</nav>
+  </body>
+</html>
